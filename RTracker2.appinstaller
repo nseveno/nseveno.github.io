@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
+    Version="1.0.0.0"
+    Uri="https://nseveno.github.io/RTracker2.appinstaller" >
+
+  <MainBundle
+      Name="NSeveno.RTracker2"
+      Publisher="CN=Nicolas Séveno"
+      Version="2.0.2.0"
+      Uri="https://nseveno.github.io/NSeveno.RTracker.UI.Host_2.0.2.0_x64.msix" />
+
+  <UpdateURIs>
+    <UpdateURI>https://nseveno.github.io/RTracker2.appinstaller</UpdateURI>
+  </UpdateURIs>
+
+  <RepairURIs>
+    <RepairURI>https://nseveno.github.io/RTracker2.appinstaller</RepairURI>
+  </RepairURIs>
+
+  <UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="0" />
+  </UpdateSettings>
+
+</AppInstaller>

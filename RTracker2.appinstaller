@@ -7,8 +7,8 @@
   <MainBundle
       Name="a64ceceb-e745-4295-b0b3-4fcf37495435"
       Publisher="CN=Nicolas Séveno"
-      Version="2.0.2.0"
-      Uri="https://nseveno.github.io/NSeveno.RTracker.UI.Host_2.0.2.0_x64.msix" />
+      Version="2.0.74.0"
+      Uri="https://nseveno.github.io/NSeveno.RTracker.UI.Host_2.0.74.0_x64.msix" />
 
   <UpdateURIs>
     <UpdateURI>https://nseveno.github.io/RTracker2.appinstaller</UpdateURI>

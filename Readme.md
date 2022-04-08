@@ -1,66 +1,66 @@
----
+ï»¿---
 R-Tracker
 ---
 
-# Téléchargements
-Dernière version : https://nseveno.github.io
+# TÃ©lÃ©chargements
+DerniÃ¨re version : https://nseveno.github.io
 
-# Futures améliorations
+# Futures amÃ©liorations
  - Support de pistes de type "Audio".
- - Séquencer les patterns dans une playlist.
+ - SÃ©quencer les patterns dans une playlist.
  - Enregistrement automation.
  - Tests unitaires sur les composants audio.
- - Multi-fenêtrage.
- - Déploiement MSI autonome.
- - Réécriture des composants graphiques critiques en C++.
+ - Multi-fenÃªtrage.
+ - DÃ©ploiement MSI autonome.
+ - RÃ©Ã©criture des composants graphiques critiques en C++.
  
 # Historique
 
-## Version 2.1 (en cours de développement)
- - Reprise ergonomie de l'écran de liste des patterns.
- - Optimisations mémoire et processeur.
+## Version 2.1 (en cours de dÃ©veloppement)
+ - Reprise ergonomie de l'Ã©cran de liste des patterns.
+ - Optimisations mÃ©moire et processeur.
  - Meilleure gestion des erreurs.
- - Support d'instruments de type "synthétiseurs" basiques.
+ - Support d'instruments de type "synthÃ©tiseurs" basiques.
  - Enchainer le playback des patterns avec le clavier.
  - Effet de filtre "Moog".
 
 ## Version 2.0
- - Réécriture de l'application en WinUI 3.
+ - RÃ©Ã©criture de l'application en WinUI 3.
  - Support de la sortie audio ASIO.
  - Support des instruments et effets au format VST 3.
- - Réécriture du rendu audio des patterns en C++.
+ - RÃ©Ã©criture du rendu audio des patterns en C++.
  - Migration du code automation et MIDI en C++.
  - Playback en live de patterns.
- - Ecran d'édition d'un pattern.
+ - Ecran d'Ã©dition d'un pattern.
 
-## Version 1.14 (annulée) 
+## Version 1.14 (annulÃ©e) 
 
 ## Version 1.13
- - Prise en charge des sorties MIDI pour gérer l'allumage des LEDs sur le MidiMix. 
+ - Prise en charge des sorties MIDI pour gÃ©rer l'allumage des LEDs sur le MidiMix. 
  - Diverses optimisations, mise en cache des samples.
- - Réécriture de composants graphiques bas niveau en C++.
+ - RÃ©Ã©criture de composants graphiques bas niveau en C++.
  - Correction de bugs.
- - Réécriture de l'explorateur de médias.
+ - RÃ©Ã©criture de l'explorateur de mÃ©dias.
 
 ## Version 1.12
- - Diverses corrections, optimisations et améliorations d'interface graphique.
+ - Diverses corrections, optimisations et amÃ©liorations d'interface graphique.
  - Ajout d'un LFO dans l'effet de delay.
 
 ## Version 1.11
- - Réécriture des composants bas niveau en C++ :
+ - RÃ©Ã©criture des composants bas niveau en C++ :
      - Primitives de calcul DSP
-     - Entrée MIDI
+     - EntrÃ©e MIDI
      - Rendu audio des instruments
      - Rendu audio des effets
-     - Vu-mètres
+     - Vu-mÃ¨tres
      - Calcul des pics audio
- - Outil de monitoring de la mémoire.
- - Centralisation des préférences utilisateur.
+ - Outil de monitoring de la mÃ©moire.
+ - Centralisation des prÃ©fÃ©rences utilisateur.
  - Effet Delay.
 
 ## Version 1.10
- - Changer l'injection de dépendance pour une injection par constructeur.
- - Système de dockage des fenêtres.
+ - Changer l'injection de dÃ©pendance pour une injection par constructeur.
+ - SystÃ¨me de dockage des fenÃªtres.
  - Importer des instruments au format SF2.
 
 ## Version 1.9
@@ -71,35 +71,35 @@ Dernière version : https://nseveno.github.io
  - Rendre plus facile la configuration des instruments.
 
 ## Version 1.8
- - Gérer l'entrée MIDI des contrôleurs Volume, Pitch et Modulation.
- - Gérer plusieurs contrôleurs MIDI.
- - Enregistrer des pistes automation à partir de l'entrée MIDI.
- - Gérer 2 bus de sortie pour chaque bus.
- - Gérer l'enregistrement multipiste de la sortie audio.
+ - GÃ©rer l'entrÃ©e MIDI des contrÃ´leurs Volume, Pitch et Modulation.
+ - GÃ©rer plusieurs contrÃ´leurs MIDI.
+ - Enregistrer des pistes automation Ã  partir de l'entrÃ©e MIDI.
+ - GÃ©rer 2 bus de sortie pour chaque bus.
+ - GÃ©rer l'enregistrement multipiste de la sortie audio.
  
 ## Version 1.7
- - Fonctions d'automatisation des contrôles dans les patterns.
+ - Fonctions d'automatisation des contrÃ´les dans les patterns.
  - Remplacement de la playlist par l'imbrication de sous-patterns.
- - Enregistrer les notes d'une piste d'un pattern à partir d'une entrée MIDI.
+ - Enregistrer les notes d'une piste d'un pattern Ã  partir d'une entrÃ©e MIDI.
  - Permettre le jeu d'un sous-pattern dans le contexte de son pattern parent.
  - Passage au SDK 1903 de Windows 10.
 
 ## Version 1.6
  - Corrections de bugs.
- - Améliorations ergonomie.
+ - AmÃ©liorations ergonomie.
  - Support de Windows 1803.
- - Amélioration de la consommation mémoire.
+ - AmÃ©lioration de la consommation mÃ©moire.
  
 ## Version 1.5
- - Simplification du processus d'édition des patterns.
- - Optimisations sur l'édition des patterns.
- - Amélioration de la gestion des bus audio.
+ - Simplification du processus d'Ã©dition des patterns.
+ - Optimisations sur l'Ã©dition des patterns.
+ - AmÃ©lioration de la gestion des bus audio.
 
 ## Version 1.4
- - Gérer la balance d'un bus audio.
+ - GÃ©rer la balance d'un bus audio.
  - Permettre l'export WAV, MP3, Flac ou WMA de la playlist d'un projet.
- - Réimplémentation native des effets audio.
- - Amélioration de l'édition de la playlist.
+ - RÃ©implÃ©mentation native des effets audio.
+ - AmÃ©lioration de l'Ã©dition de la playlist.
  - Installation possible sous Windows 1803.
  - Migrations de la base SQLite pour permettre l'ouverture des projets dans de futures versions.
  
@@ -108,29 +108,29 @@ Dernière version : https://nseveno.github.io
  
 ## Version 1.2
  - Optimisations sur la consommation CPU de l'application.
- - Optimisations sur la consommation mémoire de l'application.
+ - Optimisations sur la consommation mÃ©moire de l'application.
  - Corrections de bugs.
  - Vignettes des patterns.
  - Couleurs des bus audio.
- - Déploiement de l'application dans le store Windows.
+ - DÃ©ploiement de l'application dans le store Windows.
 
 ## Version 1.1
- - Explorateur de médias avec gestion du drag-drop.
- - Création d'instruments simples à un seul sample.
- - Création et jeu des patterns.
- - Effets supplémentaires sur un bus audio (trémolo, distorsion).
+ - Explorateur de mÃ©dias avec gestion du drag-drop.
+ - CrÃ©ation d'instruments simples Ã  un seul sample.
+ - CrÃ©ation et jeu des patterns.
+ - Effets supplÃ©mentaires sur un bus audio (trÃ©molo, distorsion).
  - Enregistrement de la sortie audio de l'application au format WAV.
- - Configuration de l'enveloppe sur un instrument à plusieurs samples (delay, attack, hold, decay, sustain, release).
+ - Configuration de l'enveloppe sur un instrument Ã  plusieurs samples (delay, attack, hold, decay, sustain, release).
  - Copier / coller de patterns, et de notes dans un pattern.
 
 ## Version 1.0
  - Mise en place de l'architecture de la solution.
  - Primitives musicales (calcul des notes).
- - Gestion de la création et sauvegarde d'un projet.
- - Système de bus de sortie audio.
- - Vu-mètre de la sortie audio.
- - Effets sur un bus audio (réverb, écho, équaliseur et limiteur).
- - Création d'instruments basés sur plusieurs samples.
+ - Gestion de la crÃ©ation et sauvegarde d'un projet.
+ - SystÃ¨me de bus de sortie audio.
+ - Vu-mÃ¨tre de la sortie audio.
+ - Effets sur un bus audio (rÃ©verb, Ã©cho, Ã©qualiseur et limiteur).
+ - CrÃ©ation d'instruments basÃ©s sur plusieurs samples.
  - Affichage des pics audio des samples.
  - Import et export au format SFZ des instruments.
- - Jeu d'un instrument à l'aide d'un clavier MIDI.
+ - Jeu d'un instrument Ã  l'aide d'un clavier MIDI.

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://nseveno.github.io/rtracker2/NSeveno.RTracker.UI.Host_x64.appinstaller"
-	Version="2.5.2.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="2.5.3.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
 	<MainPackage
 		Name="NSeveno.RTracker2"
-		Version="2.5.2.0"
+		Version="2.5.3.0"
 		Publisher="CN=Nicolas Séveno, C=FR"
-		Uri="https://nseveno.github.io/rtracker2/NSeveno.RTracker.UI.Host_2.5.2.0_x64_Test/NSeveno.RTracker.UI.Host_2.5.2.0_x64.msix"
+		Uri="https://nseveno.github.io/rtracker2/NSeveno.RTracker.UI.Host_2.5.3.0_x64_Test/NSeveno.RTracker.UI.Host_2.5.3.0_x64.msix"
 		ProcessorArchitecture="x64" />
 	<Dependencies>
 		<Package
 			Name="Microsoft.WindowsAppRuntime.1.4"
 			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
 			ProcessorArchitecture="x64"
-			Uri="https://nseveno.github.io/rtracker2/NSeveno.RTracker.UI.Host_2.5.2.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.4.msix"
-			Version="4000.986.611.0" />
+			Uri="https://nseveno.github.io/rtracker2/NSeveno.RTracker.UI.Host_2.5.3.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.4.msix"
+			Version="4000.1010.1349.0" />
 	</Dependencies>
 	<UpdateSettings>
 		<OnLaunch

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
 	Uri="https://nseveno.github.io/rtracker3/NSeveno.RTracker.UI.Host_x64.appinstaller"
-	Version="3.1.77.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Version="3.1.77.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2021">
 	<MainPackage
 		Name="NSeveno.RTracker3"
 		Version="3.1.77.0"
